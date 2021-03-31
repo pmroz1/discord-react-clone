@@ -39,6 +39,7 @@ function Serverlist(props) {
                     />
                 ))}
             </div>
+            
         </div>
     )
 }

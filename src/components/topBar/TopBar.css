@@ -1,0 +1,137 @@
+.top-bar-bkg {
+    display: flex;
+    flex-direction: row;
+    background-color: #44494E;
+}
+
+.top-bar-container {
+    border-top-left-radius: 15px;
+    color: #C4C4C4;
+    background-color: #505254;
+    width: 100%;
+    /* height: 7vh; */
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-bar-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background-color:red; */
+    font-size: 16px;
+    vertical-align: center;
+}
+
+.top-bar-icons {
+    color: #C4C4C4;
+    /* display:inline-block; */
+    overflow:hidden; 
+    /* float: left; */
+    background-color: #505254;
+    text-align: left;
+    width: 16vw;
+    /* align-items: left; */
+}
+
+#top-bar-userIcon1 {
+    /* transform: translateX(-200px); */
+    text-align: center;
+    vertical-align: center;
+    margin-left: 0px;
+    padding: 10px 0;
+    font-size: 30px;
+    /* background-color: aqua; */
+    /* height: 100%; */
+    width: 60px;
+    transition: background-color 0.5s ease-out;
+}
+
+#top-bar-userIcon2 {
+    /* transform: translateX(-200px); */
+    text-align: center;
+    vertical-align: center;
+    margin-left: 0px;
+    padding: 10px 0;
+    font-size: 30px;
+    /* background-color: aqua; */
+    /* height: 100%; */
+    width: 60px;
+    transition: background-color 0.5s ease-out;
+}
+
+#top-bar-userIcon3 {
+    /* transform: translateX(-200px); */
+    text-align: center;
+    vertical-align: center;
+    margin-left: 0px;
+    padding: 10px 0;
+    font-size: 30px;
+    /* background-color: aqua; */
+    /* height: 100%; */
+    width: 60px;
+    margin-right: 2px;
+    transition: background-color 0.5s ease-out;
+}
+
+#top-bar-userIcon4 {
+    /* transform: translateX(-200px); */
+    text-align: center;
+    vertical-align: center;
+    margin-left: 0px;
+    padding: 10px 0;
+    font-size: 30px;
+    /* background-color: aqua; */
+    /* height: 100%; */
+    width: 60px;
+    transition: background-color 0.5s ease-out;
+}
+
+#top-bar-userIcon1:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease-in;
+}
+
+#top-bar-userIcon2:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease-in;
+}
+
+#top-bar-userIcon3:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease-in;
+}
+
+#top-bar-userIcon4:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease-in;
+}
+
+.top-bar-search {
+    /* vertical-align: center; */
+    background-color: aqua;
+    height: 80%;
+}
+
+.top-bar-bar-serachbox {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    height: 70%;
+}
+
+#top-bar-searchIcon{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: color 0.5s ease-out;
+}
+
+#top-bar-searchIcon:hover{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.2s ease-in;
+}
