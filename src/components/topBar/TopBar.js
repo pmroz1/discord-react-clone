@@ -39,8 +39,8 @@ function TobBar(props) {
             </div>
             <div className="top-bar-search">
                 <div className="top-bar-bar-serachbox">
-                    <p className="serach-text">wyszukaj</p>
-                    <i className={props.searchIcon} id="top-bar-searchIcon"></i>
+                    <p className="serach-text">&nbsp;wyszukaj&nbsp;&nbsp;</p>
+                    <i className={props.searchIcon} id="top-bar-searchIcon">&nbsp;&nbsp;</i>
                 </div>
             </div>
             <i className={props.helpIcon} id="top-bar-userIcon4"></i>

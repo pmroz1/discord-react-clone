@@ -26,7 +26,7 @@
 .top-bar-icons {
     color: #C4C4C4;
     /* display:inline-block; */
-    overflow:hidden; 
+    overflow: hidden;
     /* float: left; */
     background-color: #505254;
     text-align: left;
@@ -75,6 +75,13 @@
 }
 
 #top-bar-userIcon4 {
+    color: #C4C4C4;
+    /* display:inline-block; */
+    overflow: hidden;
+    /* float: left; */
+    background-color: #505254;
+    text-align: left;
+    width: 16vw;
     /* transform: translateX(-200px); */
     text-align: center;
     vertical-align: center;
@@ -108,30 +115,42 @@
 }
 
 .top-bar-search {
+    color: #C4C4C4;
     /* vertical-align: center; */
-    background-color: aqua;
-    height: 80%;
+    background-color: #505254;
+    /* height: 100%; */
+    /* padding: 2px; */
 }
 
 .top-bar-bar-serachbox {
     display: flex;
     margin: 0px;
     padding: 0px;
-    background-color: red;
-    height: 70%;
+    background-color: #505254;
+    height: 50%;
 }
 
-#top-bar-searchIcon{
+#top-bar-searchIcon {
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
     transition: color 0.5s ease-out;
 }
 
-#top-bar-searchIcon:hover{
+#top-bar-searchIcon:hover {
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
     color: rgba(255, 255, 255, 0.5);
     transition: color 0.2s ease-in;
+}
+
+.top-bar-bar-serachbox {
+    border-radius: 5%;
+    height: 100%;
+}
+
+.top-bar-bar-serachbox:hover {
+    border-radius: 5%;
+    /* height: 10%; */
 }
