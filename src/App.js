@@ -38,6 +38,7 @@ function App() {
           bellIconOff={configuration.TopBar.bellIconOff}
           helpIcon={configuration.TopBar.helpIcon}
           searchIcon={configuration.TopBar.searchIcon}
+          messages={configuration.messages}
         />
         <Chat />
       </div>

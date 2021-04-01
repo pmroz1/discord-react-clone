@@ -1,20 +1,34 @@
-// import { render } from '@testing-library/react'/
 import React from 'react'
+import { configuration } from '../../configuration'
+import Message from '../message/Message'
+import './MessageList.css'
 
+function MessageList() {
+    const messages = []
+    // console.log("ha")
 
-class MessageList extends React.Component {
-    constructor(props) {
-        super(props)
-        // this.state = { message: false }
+    configuration.Messages.forEach(element => {
+        messages.push({
+            channelName: element.channelName,
+            iconURL: element.iconURL,
+            author: element.author,
+            authorColor: element.authorColor,
+            value: element.value
+        })
+    });
 
-    }
-    render() {
-        return (
-            <div className="message-list">
-                {this.props.test}
-            </div>
-        )
-    }
+    return (
+        <div className="message-list">
+            {messages.map((dataObj) => (
+                <Message
+                    author={dataObj.author}
+                    authorColor={dataObj.authorColor}
+                    value={dataObj.value}
+                    iconURL={dataObj.iconURL}
+                />
+            ))}
+        </div>
+    )
 }
 
 export default MessageList

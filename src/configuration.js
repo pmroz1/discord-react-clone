@@ -69,7 +69,51 @@ export const configuration =
         "bellIcon": "fas fa-bell-slash",
         "bellIconOff": "fas fa-bell",
         "helpIcon": "fas fa-question-circle",
-        "searchIcon" : "fas fa-search"
+        "searchIcon": "fas fa-search"
     },
-    "Active": []
+    "Active": [],
+    "Messages": [
+        {
+            "channelName": "ogólny",
+            "iconURL": "icon1.jpg",
+            "author": "Taki ziomek co testuje",
+            "authorColor": "violet",
+            "value": "Dzień dobry, zrobił ktoś pracę domową z angielskiego?"
+        },
+        {
+            "channelName": "ogólny",
+            "iconURL": "icon2.jpg",
+            "author": "Kujon69",
+            "authorColor": "pink",
+            "value": " Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis."
+        },
+        {
+            "channelName": "ogólny",
+            "iconURL": "icon3.jpg",
+            "author": "jg gapp every game",
+            "authorColor": "#1C91F8",
+            "value": " Omnis enim est natura diligens sui. Nam de summo mox, ut dixi, videbimus et ad id explicandum disputationem omnem conferemus."
+        },
+        {
+            "channelName": "ogólny",
+            "iconURL": "icon1.jpg",
+            "author": "Taki ziomek co testuje",
+            "authorColor": "violet",
+            "value": "Dzień dobry, zrobił ktoś pracę domową z angielskiego?"
+        },
+        {
+            "channelName": "ogólny",
+            "iconURL": "icon2.jpg",
+            "author": "Kujon69",
+            "authorColor": "pink",
+            "value": " Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis."
+        },
+        {
+            "channelName": "ogólny",
+            "iconURL": "icon3.jpg",
+            "author": "jg gapp every game",
+            "authorColor": "#1C91F8",
+            "value": " Omnis enim est natura diligens sui. Nam de summo mox, ut dixi, videbimus et ad id explicandum disputationem omnem conferemus."
+        }
+    ]
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import MessageList from '../messageList/MessageList'
 import './Chat.css'
+import CreateMessage from '../createMessage/CreateMessage'
 
 function Chat(props) {
     return (
@@ -8,9 +9,10 @@ function Chat(props) {
             <div className="chat-container">
                 <MessageList
                     messages={props.messages}
-                    test="XD"
+                    // test="XD"
                 />
             </div>
+            <CreateMessage />
 
         </div>
     )

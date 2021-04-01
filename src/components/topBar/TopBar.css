@@ -5,6 +5,7 @@
 }
 
 .top-bar-container {
+    z-index: 69;
     border-top-left-radius: 15px;
     color: #C4C4C4;
     background-color: #505254;

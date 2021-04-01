@@ -1,3 +1,6 @@
 .message-list{
-    background-color: aqua;
+    float:bottom;
+    height:60vh;
+    /* background-color: aqua; */
+    /* height:100vh; */
 }
